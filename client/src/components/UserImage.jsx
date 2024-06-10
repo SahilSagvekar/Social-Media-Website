@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://mern-social-media-website-git-main-sahilsagvekars-projects.vercel.app/assets/${image}`}
+        src={`https://social-media-website-ed9p.onrender.com/assets/${image}`}
       />
     </Box>
   );
