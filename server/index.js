@@ -33,7 +33,7 @@ app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 app.use(cors(
   {
-    origin: ["https://mern-social-media-website-git-main-sahilsagvekars-projects.vercel.app"],
+    origin: ["https://social-media-website-git-main-sahilsagvekars-projects.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }
