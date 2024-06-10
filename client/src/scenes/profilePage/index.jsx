@@ -15,7 +15,7 @@ const ProfilePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
   const getUser = async () => {
-    const response = await fetch(`https://mern-social-media-website-git-main-sahilsagvekars-projects.vercel.app/users/${userId}`, {
+    const response = await fetch(`https://social-media-website-ed9p.onrender.com/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
