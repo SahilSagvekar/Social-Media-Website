@@ -65,6 +65,7 @@ app.get("/", (req,res,next) => {return res.status(200).json({
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6001;
+mongoose.set("strictQuery", false);
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
