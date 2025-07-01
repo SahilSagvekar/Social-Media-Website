@@ -60,7 +60,9 @@ const Form = () => {
     const formData = new FormData();
     for (let value in values) {
       formData.append(value, values[value]);
+    
     }
+    formData.append("picture", values.picture);
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
